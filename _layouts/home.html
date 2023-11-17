@@ -4,23 +4,23 @@ layout: archive
 
 {{ content }}
 
-<div class="custom-intro">
-  <p>Welcome to our blog where we share our latest insights and projects.</p>
+<div class="business-intro">
+  <h1>Welcome to Our Painting Business</h1>
+  <p>Transforming Spaces with Artistic Excellence</p>
 </div>
 
-<h2 class="custom-archive-title">{{ site.data.ui-text[site.locale].custom_title | default: "Our Latest Posts" }}</h2>
-
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-
-<div class="custom-entries">
-  {% for post in posts %}
-    {% include custom-archive-single.html type=entries_layout %}
+<section class="featured-projects">
+  <h2>Featured Projects</h2>
+  {% for post in site.posts limit:3 %}
+    {% include business-archive-single.html type='grid' %}
   {% endfor %}
-</div>
+</section>
+
+<section class="about-us">
+  <h2>About Us</h2>
+  <p>Your business description goes here...</p>
+</section>
+
 
 
 {% include paginator.html %}
