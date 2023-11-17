@@ -144,7 +144,7 @@ footer:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: "Bitbucket"
+    - label: "Website"
       icon: "fab fa-fw fa-bitbucket"
       # url:
     - label: "Instagram"
