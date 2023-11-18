@@ -2,7 +2,7 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-      - title: "Kontakt"
+  - title: "Kontakt"
     url: {{ site.baseurl }}/kontakt/
   - title: "Galleri"
     url: {{ site.baseurl }}/galleri/
