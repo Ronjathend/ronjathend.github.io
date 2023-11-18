@@ -4,8 +4,8 @@ main:
     url: /kontakt/
   - title: "Galleri"
     url: /galleri/
- #- title: "Omtaler"
- #   url: /Omtaler/
+ - title: "Omtaler"
+    url: /Omtaler/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

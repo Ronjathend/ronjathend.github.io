@@ -158,6 +158,7 @@ include:
   - _pages
   - Kontakt.md
   - Galleri.md
+  - Omtaler.md
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
