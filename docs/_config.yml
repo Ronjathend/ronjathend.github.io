@@ -221,6 +221,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # Set the layout for the landing page (index.md)
+  - scope:
+      path: ""
+      type: index
+    values:
+      layout: single
+      author_profile: true
   # _docs
   - scope:
       path: ""
