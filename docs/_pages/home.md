@@ -7,7 +7,7 @@ categories: [category1, category2]
 tags: [tag1, tag2]
 excerpt: "This post should display a header with an overlay image if the theme supports it."
 header:
-  overlay_image: /images/pexels-tima-miroshnichenko.jpg
+  overlay_image: /assets/images/pexels-tima-miroshnichenko.jpg
   caption: "Photo credit: [**Pexels**](https://pexels.com)"
   actions:
     - label: "More Info"
