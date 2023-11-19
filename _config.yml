@@ -280,5 +280,5 @@ compress_html:
     envs: development
 
 header:
-  overlay_image: /images/pexels-tima-miroshnichenko-6474465.jpg
+  overlay_image: /images/patrick-tomasso-UeuSuM1M43U-unsplash.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
