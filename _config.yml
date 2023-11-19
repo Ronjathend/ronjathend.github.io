@@ -282,7 +282,7 @@ compress_html:
 # New defaults block for header image
 defaults:
   - scope:
-      path: "Kontakt.md"
+      path: "Home.md"
       type: pages
     values:
       header:
