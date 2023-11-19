@@ -156,6 +156,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - Home.md
   - Kontakt.md
   - Galleri.md
   - Omtaler.md
@@ -281,5 +282,5 @@ compress_html:
 
 tagline: "This is a custom tagline content which overrides the default page excerpt."
 header:
-  overlay_image: /images/patrick-tomasso-UeuSuM1M43U-unsplash.jpg
+  overlay_image: /images/pexels-tima-miroshnichenko.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
