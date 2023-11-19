@@ -263,18 +263,31 @@ collections:
     permalink: /:collection/:path/
 
 
-# Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
+  -
+    scope:
+      path: "C:\Users\ronjthen\Downloads\pexels-tima-miroshnichenko-6474465.jpg" # an empty string means all files
+      type: "pages"
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      share: true
-      related: true
+      header:
+        overlay_image: /assets/images/unsplash-image-1.jpg
+        overlay_filter: 0.5
+        caption: "Photo credit: [**Unsplash**](https://www.pexels.com/nb-no/bilde/rom-maling-gra-malings-rulle-6474465/)"
+        actions:
+          - label: "More Info"
+            url: "https://unsplash.com"
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      header:
+        overlay_image: /assets/images/unsplash-image-1.jpg
+        overlay_filter: 0.5
+        caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+        actions:
+          - label: "More Info"
+            url: "https://unsplash.com"
   # _pages
   - scope:
       path: "_pages"
