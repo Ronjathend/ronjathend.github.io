@@ -281,7 +281,6 @@ compress_html:
 
 # New defaults block for header image
 defaults:
-   _pages
   - scope:
       path: "Kontakt.md"
       type: pages
@@ -294,7 +293,6 @@ defaults:
           - label: "More Info"
             url: "https://unsplash.com"
 
-   _pages
   - scope:
       path: "Galleri.md"
       type: pages
@@ -307,7 +305,6 @@ defaults:
           - label: "More Info"
             url: "https://unsplash.com"
 
-   _pages
   - scope:
       path: "Omtaler.md"
       type: pages
