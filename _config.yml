@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Malegutta"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /images/pexels-tima-miroshnichenko-6474465.jpg
   bio              : "Vi tar jobben!"
   location         : "Oslo/Viken"
   email            :
