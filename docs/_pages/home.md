@@ -1,14 +1,18 @@
 ---
 layout: single
-permalink: /
-hidden: true
+title: "Malegutta AS"
+date: YYYY-MM-DD HH:MM:SS +/-TTTT
+author: Your Name
+categories: [category1, category2]
+tags: [tag1, tag2]
+excerpt: "This post should display a header with an overlay image if the theme supports it."
 header:
   overlay_image: /images/pexels-tima-miroshnichenko.jpg
-  overlay_filter: 0.5
-  caption: "Photo credit: [**Unsplash**](https://www.pexels.com/nb-no/bilde/rom-maling-gra-malings-rulle-6474465/)"
+  caption: "Photo credit: [**Pexels**](https://pexels.com)"
   actions:
     - label: "More Info"
-      url: "https://unsplash.com"
+      url: "https://Pexels.com"
+---
 excerpt: >
   A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
   <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
