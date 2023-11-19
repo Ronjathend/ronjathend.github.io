@@ -101,6 +101,13 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+excerpt: "This post should display a **header with an overlay image**, if the theme supports it."
+header:
+  overlay_image: /images/pexels-tima-miroshnichenko.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  actions:
+    - label: "More Info"
+      url: "https://unsplash.com"
 
 # Site Author
 author:
@@ -280,7 +287,3 @@ compress_html:
   ignore:
     envs: development
 
-tagline: "This is a custom tagline content which overrides the default page excerpt."
-header:
-  overlay_image: /images/pexels-tima-miroshnichenko.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
