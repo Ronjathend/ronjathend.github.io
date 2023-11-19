@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 hidden: true
 header:
-  image: /assets/images/pexels-tima-miroshnichenko.jpg
+  overlay_image: /ronjathend.github.io/assets/images/pexels-tima-miroshnichenko.jpg
   actions:
     - label: "<i class='fas fa-download'></i> Install now"
       #url: "/docs/quick-start-guide/"
