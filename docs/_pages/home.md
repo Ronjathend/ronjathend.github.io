@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: home
 title: "Malegutta AS"
 date: YYYY-MM-DD HH:MM:SS +/-TTTT
 author: Your Name
