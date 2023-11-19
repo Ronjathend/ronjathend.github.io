@@ -3,7 +3,7 @@ layout: single
 permalink: /
 hidden: true
 header:
-  overlay_image: /assets/images/headerpic/pexels-tima-miroshnichenko-6474465.jpg
+  overlay_image: /images/headerpic/pexels-tima-miroshnichenko-6474465.jpg
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://www.pexels.com/nb-no/bilde/rom-maling-gra-malings-rulle-6474465/)"
   actions:
