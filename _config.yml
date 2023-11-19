@@ -158,7 +158,6 @@ include:
   - _pages
   - Kontakt.md
   - Galleri.md
-  - Omtaler.md
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -293,3 +292,44 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# New defaults block for header image
+defaults:
+  # _pages
+  - scope:
+      path: "Kontakt.md"
+      type: pages
+    values:
+      header:
+        overlay_image: /images/headerpic/pexels-tima-miroshnichenko-6474465.jpg
+        overlay_filter: 0.5
+        caption: "Photo credit: [**Unsplash**](https://www.pexels.com/nb-no/bilde/rom-maling-gra-malings-rulle-6474465/)"
+        actions:
+          - label: "More Info"
+            url: "https://unsplash.com"
+
+  # _pages
+  - scope:
+      path: "Galleri.md"
+      type: pages
+    values:
+      header:
+        overlay_image: /images/headerpic/pexels-tima-miroshnichenko-6474465.jpg
+        overlay_filter: 0.5
+        caption: "Photo credit: [**Unsplash**](https://www.pexels.com/nb-no/bilde/rom-maling-gra-malings-rulle-6474465/)"
+        actions:
+          - label: "More Info"
+            url: "https://unsplash.com"
+
+  # _pages
+  - scope:
+      path: "Omtaler.md"
+      type: pages
+    values:
+      header:
+        overlay_image: /images/headerpic/pexels-tima-miroshnichenko-6474465.jpg
+        overlay_filter: 0.5
+        caption: "Photo credit: [**Unsplash**](https://www.pexels.com/nb-no/bilde/rom-maling-gra-malings-rulle-6474465/)"
+        actions:
+          - label: "More Info"
+            url: "https://unsplash.com"
