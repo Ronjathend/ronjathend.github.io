@@ -155,7 +155,7 @@ footer:
 include:
   - .htaccess
   - _pages
-  - Index.md
+  - Home.md
   - Kontakt.md
   - Galleri.md
   - Omtaler.md
