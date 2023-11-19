@@ -279,24 +279,9 @@ compress_html:
   ignore:
     envs: development
 
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
-
 # New defaults block for header image
 defaults:
-  # _pages
+   _pages
   - scope:
       path: "Kontakt.md"
       type: pages
@@ -309,7 +294,7 @@ defaults:
           - label: "More Info"
             url: "https://unsplash.com"
 
-  # _pages
+   _pages
   - scope:
       path: "Galleri.md"
       type: pages
@@ -322,7 +307,7 @@ defaults:
           - label: "More Info"
             url: "https://unsplash.com"
 
-  # _pages
+   _pages
   - scope:
       path: "Omtaler.md"
       type: pages
