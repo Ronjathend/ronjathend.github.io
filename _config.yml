@@ -279,6 +279,7 @@ compress_html:
   ignore:
     envs: development
 
+tagline: "This is a custom tagline content which overrides the default page excerpt."
 header:
   overlay_image: /images/patrick-tomasso-UeuSuM1M43U-unsplash.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
