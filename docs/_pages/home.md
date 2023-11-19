@@ -1,17 +1,12 @@
 ---
-layout: home
-title: "Malegutta AS"
-date: YYYY-MM-DD HH:MM:SS +/-TTTT
-author: Your Name
-categories: [category1, category2]
-tags: [tag1, tag2]
-excerpt: "This post should display a header with an overlay image if the theme supports it."
+layout: single
+title: "Your Post Title"
 header:
   overlay_image: /assets/images/pexels-tima-miroshnichenko.jpg
-  caption: "Photo credit: [**Pexels**](https://pexels.com)"
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "More Info"
-      url: "https://Pexels.com"
+      url: "https://unsplash.com"
 ---
 excerpt: >
   A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
