@@ -279,40 +279,6 @@ compress_html:
   ignore:
     envs: development
 
-# New defaults block for header image
-defaults:
-  - scope:
-      path: "Home.md"
-      type: pages
-    values:
-      header:
-        overlay_image: /images/pexels-tima-miroshnichenko-6474465.jpg
-        overlay_filter: 0.5
-        caption: "Photo credit: [**Unsplash**](https://www.pexels.com/nb-no/bilde/rom-maling-gra-malings-rulle-6474465/)"
-        actions:
-          - label: "More Info"
-            url: "https://unsplash.com"
-
-  - scope:
-      path: "Galleri.md"
-      type: pages
-    values:
-      header:
-        overlay_image: /images/pexels-tima-miroshnichenko-6474465.jpg
-        overlay_filter: 0.5
-        caption: "Photo credit: [**Unsplash**](https://www.pexels.com/nb-no/bilde/rom-maling-gra-malings-rulle-6474465/)"
-        actions:
-          - label: "More Info"
-            url: "https://unsplash.com"
-
-  - scope:
-      path: "Omtaler.md"
-      type: pages
-    values:
-      header:
-        overlay_image: /images/pexels-tima-miroshnichenko-6474465.jpg
-        overlay_filter: 0.5
-        caption: "Photo credit: [**Unsplash**](https://www.pexels.com/nb-no/bilde/rom-maling-gra-malings-rulle-6474465/)"
-        actions:
-          - label: "More Info"
-            url: "https://unsplash.com"
+header:
+  overlay_image: /images/pexels-tima-miroshnichenko-6474465.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
