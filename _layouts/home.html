@@ -1,28 +1,22 @@
-
 ---
 layout: archive
 ---
 
 {{ content }}
 
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
-<div class="business-intro">
-  <h1>Om oss</h1>
-  <p>Malegutta er en stolt leverandør av malerarbeid og håndverkertjenester for private husstander, bedrifter, borettslag og sameier i Oslo/Viken. Vi har et team av erfarne og dedikerte fagfolk som bistår deg og ditt behov. Alt fra valg av materialer, farger til gjennomføring av prosjektet. Vi sørger for at du får et strøkent og langvarig sluttresultat som står til dine forventinger.</p>
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %} 
 </div>
 
-<section class="featured-projects">
-  <h2>Oppdaterte produkter og metoder</h2>
-  <p>Vi blir hele tiden oppdatert på nye produkter og arbeidsmetoder gjennom våre samarbeidspartnere og det resulterer ofte i mer kostnadseffektiv gjennomføring av oppdrag. Vi har fokus på miljøvennlig sortering og gjenvinning av avfall.</p>
-  {% for post in site.posts limit:3 %}
-    {% include business-archive-single.html type='grid' %}
-  {% endfor %}
-</section>
-
-<section class="about-us">
-  <h2>Annet</h2>
-  <p>...</p>
-</section>
-
-{% include navigation.html %}
 {% include paginator.html %}
