@@ -1,5 +1,5 @@
 ---
-layout: home.html
+layout: home
 permalink: /
 hidden: true
 header:
